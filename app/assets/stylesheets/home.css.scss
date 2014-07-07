@@ -1,0 +1,106 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    background-color: #414143;
+    padding-top: 60px;
+}
+
+body, a, label, ul, li {
+    color: #eeeeeb;
+    font-family: 'Fanwood Text', serif;
+}
+
+a:hover {
+  color: #eeeeeb;
+  /*text-decoration: none;*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fanwood Text', serif;
+  color: #f9c39e;
+}
+
+.hero-unit {
+  background-color: #494949;
+  text-align: center;
+  padding: 15px;
+}
+
+.hero-unit img {
+ padding-bottom: 15px;
+}
+
+.headline {
+    color: #eeeeeb;
+    font-family: 'Fanwood Text', serif;
+    padding-bottom: 10px;
+}
+
+.large {
+    font-size: 72px;
+}
+
+#subline {
+    text-align: center;
+    font-size: 12pt;
+    font-family: 'IM Fell French Canon', serif;
+}
+
+.highlight {
+    color: #f9c39e;
+}
+
+.container p, .container li {
+    font-size: 11pt;
+}
+
+.wedding_party {
+    font-size:24px;
+}
+
+.wedding_mug {
+    width: 150px;
+    text-align:center;
+}
+
+.wedding_mug img {
+    padding-top: 9px;
+}
+
+.contact_form {
+    width: 600px;
+    margin: auto
+}
+
+#contact_button {
+    margin-right: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#add_guest_button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.primary {
+    background-color: #494949;
+    text-align: right;
+}
+
+.alternate {
+    background-color: #414143;
+}
+
+.address {
+  width:175px;
+
+    p {
+        line-height: 10px;
+        font-size: 10pt;
+    }
+}

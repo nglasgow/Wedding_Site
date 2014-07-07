@@ -1,0 +1,45 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#guest_list').dataTable({
+            "aaSorting": [
+                [ 0, "desc" ]
+            ]
+        });
+    });
+</script>
+
+<div class="hero-unit">
+
+    <h1 class="headline large">Admin</h1>
+
+    <h2>Guest Count: <%= @rsvps.count %></h2>
+    <br/>
+    <table class="admin table" id="guest_list">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>First</th>
+            <th>Last</th>
+            <th>Attending</th>
+            <th>Shuttle</th>
+        </tr>
+
+        </thead>
+
+        <% @rsvps.each_with_index do |rsvp, i| %>
+            <% cls= i % 2==0 ? "" : "alternate" %>
+            <tr class=<%= cls %>>
+                <td><%= rsvp.id %></td>
+                <td><%= rsvp.title %></td>
+                <td><%= rsvp.first_name %></td>
+                <td><%= rsvp.last_name %></td>
+                <td><%= rsvp.attending %></td>
+                <td><%= rsvp.using_shuttle? %></td>
+            </tr>
+        <% end %>
+    </table>
+
+    <br/>
+
+</div>
