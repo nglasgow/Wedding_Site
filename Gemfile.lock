@@ -28,6 +28,7 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.5)
     arel (3.0.3)
     builder (3.0.4)
     coffee-rails (3.2.2)
@@ -38,7 +39,16 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     erubis (2.7.0)
+    excon (0.25.3)
     execjs (2.2.0)
+    heroku (2.40.1)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.15)
+      excon (~> 0.25.1)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -47,11 +57,15 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.1)
     kgio (2.8.0)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    libv8 (3.11.8.17)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
     multi_json (1.10.1)
+    netrc (0.7.7)
     pg (0.16.0)
     polyglot (0.3.5)
     rack (1.4.5)
@@ -85,6 +99,10 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
+    ref (1.0.5)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
     sass (3.2.13)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -96,6 +114,9 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.9)
+    therubyracer (0.11.4)
+      libv8 (~> 3.11.8.12)
+      ref
     thor (0.19.1)
     tilt (1.4.1)
     treetop (1.4.15)
@@ -115,6 +136,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  execjs
+  heroku
   jquery-rails
   pg
   rails (= 3.2.13)
@@ -122,5 +145,6 @@ DEPENDENCIES
   sass (= 3.2.13)
   sass-rails (~> 3.2.3)
   sqlite3
+  therubyracer
   uglifier (>= 1.0.3)
   unicorn

@@ -12,7 +12,7 @@ class AdminController < ApplicationController
 
   def authenticate
     authenticate_or_request_with_http_basic do |username, password|
-      username == "lando" && password == Base64.decode64("bTAwbTAwZmFybQ==\n")
+      username == 'admin' && password == Base64.decode64('Z2FiZWhvYmJlcw==\n')
     end
   end
 

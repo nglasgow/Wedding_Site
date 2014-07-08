@@ -10,6 +10,8 @@ gem 'sass', '3.2.13'
 
 group :production do
   gem 'pg'
+  gem 'execjs'
+  gem 'therubyracer'
 end
 
 gem 'rails_12factor', group: :production
@@ -30,6 +32,7 @@ end
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'heroku'
 end
 
 gem 'jquery-rails'
