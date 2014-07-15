@@ -17,6 +17,7 @@ end
 gem 'rails_12factor', group: :production
 
 gem 'unicorn'
+gem 'newrelic_rpm'
 
 # Gems used only for assets and not required
 # in production environments by default.
