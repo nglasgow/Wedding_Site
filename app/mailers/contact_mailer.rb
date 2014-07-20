@@ -4,7 +4,7 @@ class ContactMailer < ActionMailer::Base
   def inbound_email(email, subject, message)
     @subject = subject
     @message  = message
-    mail(:from => email, :to => 'nicole@gabeandnicole.com', :cc => 'gabe.nicole.wed@gmail.com', :subject => "Message from gabeandnicole.com: #{subject}").deliver
+    mail(:from => email, :to => 'nicole@gabeandnicole.com', :cc => 'gabe.nicole.wed@gmail.com', :subject => "Message from gabeandnicole.com: #{subject}")
   end
 
 end
