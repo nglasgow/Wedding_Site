@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default from: "admin@gabeandnicole.com"
+  default from: "no-reply@gabeandnicole.com"
 
   def inbound_email(email, subject, message)
     @subject = subject
