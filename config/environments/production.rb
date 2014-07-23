@@ -65,6 +65,7 @@ WeddingSite::Application.configure do
   # ActionMailer Config
   # Setup for production - deliveries, no errors raised
   config.action_mailer.delivery_method = :postmark
+  config.action_mailer.postmark_settings = { :api_key => "f65dfd61-ab59-4335-8c37-bff35661e856"}
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
