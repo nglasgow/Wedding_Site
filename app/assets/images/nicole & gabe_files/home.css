@@ -1,0 +1,122 @@
+/* line 5, ../../app/assets/stylesheets/home.css.scss */
+body {
+  background-color: #414143;
+  padding-top: 60px;
+}
+
+/* line 10, ../../app/assets/stylesheets/home.css.scss */
+body, a, label, ul, li {
+  color: #eeeeeb;
+  font-family: 'Fanwood Text', serif;
+}
+
+/* line 15, ../../app/assets/stylesheets/home.css.scss */
+a:hover {
+  color: #eeeeeb;
+  /*text-decoration: none;*/
+}
+
+/* line 20, ../../app/assets/stylesheets/home.css.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fanwood Text', serif;
+  color: #f9c39e;
+}
+
+/* line 25, ../../app/assets/stylesheets/home.css.scss */
+.hero-unit {
+  background-color: #494949;
+  text-align: center;
+  padding: 15px;
+}
+
+/* line 31, ../../app/assets/stylesheets/home.css.scss */
+.hero-unit img {
+  padding-bottom: 15px;
+}
+
+/* line 35, ../../app/assets/stylesheets/home.css.scss */
+.headline {
+  color: #eeeeeb;
+  font-family: 'Fanwood Text', serif;
+  padding-bottom: 10px;
+}
+
+/* line 41, ../../app/assets/stylesheets/home.css.scss */
+.large {
+  font-size: 72px;
+}
+
+/* line 45, ../../app/assets/stylesheets/home.css.scss */
+#subline {
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'IM Fell French Canon', serif;
+}
+
+/* line 51, ../../app/assets/stylesheets/home.css.scss */
+.highlight {
+  color: #f9c39e;
+}
+
+/* line 55, ../../app/assets/stylesheets/home.css.scss */
+.container p, .container li {
+  font-size: 11pt;
+}
+
+/* line 59, ../../app/assets/stylesheets/home.css.scss */
+.wedding_party {
+  font-size: 24px;
+}
+
+/* line 63, ../../app/assets/stylesheets/home.css.scss */
+.wedding_mug {
+  width: 150px;
+  text-align: center;
+}
+
+/* line 68, ../../app/assets/stylesheets/home.css.scss */
+.wedding_mug img {
+  padding-top: 9px;
+}
+
+/* line 72, ../../app/assets/stylesheets/home.css.scss */
+.contact_form {
+  width: 600px;
+  margin: auto;
+}
+
+/* line 77, ../../app/assets/stylesheets/home.css.scss */
+#contact_button {
+  margin-right: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* line 83, ../../app/assets/stylesheets/home.css.scss */
+#add_guest_button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* line 90, ../../app/assets/stylesheets/home.css.scss */
+.primary {
+  background-color: #494949;
+  text-align: right;
+}
+
+/* line 95, ../../app/assets/stylesheets/home.css.scss */
+.alternate {
+  background-color: #414143;
+}
+
+/* line 99, ../../app/assets/stylesheets/home.css.scss */
+.address {
+  width: 175px;
+}
+/* line 102, ../../app/assets/stylesheets/home.css.scss */
+.address p {
+  line-height: 10px;
+  font-size: 10pt;
+}
