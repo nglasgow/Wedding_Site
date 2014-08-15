@@ -5,11 +5,11 @@
 
     <table class="wedding_party">
         <tr class="primary">
-            <td colspan=1 class="wedding_mug"><%= image_tag 'airbnb.jpeg', :class => 'wedding_mug' %></td>
+            <td colspan=1 class="wedding_mug"><%= link_to image_tag 'airbnb.jpeg', 'http://www.airbnb.com/c/nglasgow1', :target => "_blank" %></td>
             <td colspan=2 class="details">
                 <p>If you want to stay close to downtown without paying a fortune, we advise signing up for Airbnb if you haven't</p>
                 <ul>
-                    <li>Here is a referral link if you haven't already signed up. It will issue you a $25 credit: <%= link_to '* Referral Link', 'www.airbnb.com/c/nglasgow1'%></li>
+                    <li>Here is a referral link if you haven't already signed up. It will issue you a $25 credit: <%= link_to '* Referral Link', 'http://www.airbnb.com/c/nglasgow1'%></li>
                     <li>We will be providing bus service from  downtown to/from Wedding for carless out of towners.</li>
                     <li>Pro tip: Search for listings no more than 2-3 miles from the zip code 98122</li>
                 </ul>
@@ -17,7 +17,7 @@
         </tr>
 
         <tr class="alternate">
-            <td colspan=1 class="wedding_mug"><%= image_tag 'vrbo.jpeg', :class => 'wedding_mug' %></td>
+            <td colspan=1 class="wedding_mug"><%= link to image_tag 'vrbo.jpeg', 'http://www.vrbo.com', :target => "_blank" , :class => 'wedding_mug' %></td>
             <td colspan=2 class="details">
                 <p>Another affordable options for larger groups is Vacation Rentals By Owners</p>
                 <ul>
